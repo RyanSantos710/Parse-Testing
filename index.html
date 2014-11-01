@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<head>
+  <title></title>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Well! You or someone else broke it!</h2>
+
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="col-sm-12 label-control">Email</label>
+        <div class="col-sm-12">
+          <input type="email"  class="form-control" placeholder="name@domain.com" name="email" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-12 label-control">Who broke it?</label>
+        <div class="col-sm-12">
+          <input class="form-control" placeholder="I think it was..." name="target" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-12 label-control">What was broken?</label>
+        <div class="col-sm-12">
+          <input class="form-control" placeholder="Code/Item" name="problem" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-12 label-control">How should it get fixed?</label>
+        <div class="col-sm-12">
+          <input class="form-control" placeholder="How about..." name="solution" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-12 label-control">Is it worth it?</label>
+        <div class="col-sm-12">
+          <input class="form-control" placeholder="Hmm..." name="cost" required />
+        </div>
+      </div>        
+      <div class="form-group">
+        <div>
+          <button type="submit" class="btn btn-primary col-sm-12"><i class="fa fa-envelope"></i> Submit!</button>
+        </div>
+      </div>
+    </form>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v2.0.0.js"></script>
+  <script src="//www.parsecdn.com/js/parse-1.3.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
